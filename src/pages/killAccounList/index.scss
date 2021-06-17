@@ -1,0 +1,78 @@
+page{
+    background: #f9f9f9;
+}
+.history-list-page{
+    
+    margin: 20px 30px;
+    .f-color-primary{
+        color:#f68b4d;
+    }
+    .picker, .order-btn{
+        display: flex;
+        align-items: center;
+        font-size: 28px;
+    }
+    .order-header{
+        display: flex;
+    }
+    .order-info{
+        display: flex;
+        flex: 1;
+        font-size: 28px;
+    }
+    .info{
+        margin-left: 20px;
+    }
+    .list-card{
+        background: #fff;
+        border-radius: 20px;
+        padding: 20px 30px;
+        margin: 20px 0;
+    }
+    .card-title{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .card-info{
+        display: flex;
+        justify-content: space-between;
+    }
+    .info-text{
+        line-height: 1.8;
+        font-size: 30px;
+        color: #233;
+    }
+    .status-icon{
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        word-wrap:normal;
+        margin: 0 6px;
+    }
+    .status-1{
+        background: #07c160;
+    }
+    .status-0{
+        background: #ff976a;
+    }
+    .info-operate{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .info-button{
+        padding: 10px 20px;
+        border: 2px solid #f68b4d;
+        border-radius: 6px;
+        color: #f68b4d;
+        font-size: 28px;
+    }
+    .info-button:active{
+        color: #fff;
+        background: #f68b4d;
+    }
+    .info-status{
+        text-align: right;
+    }
+}
